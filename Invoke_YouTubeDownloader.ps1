@@ -5,7 +5,7 @@ function Invoke-YouTubeDownloader{
         [switch] $MP3Only
     )
 
-    $PythonScriptPath = "C:\Users\JASON\Desktop\web dev\projects\youtube-donwloader";
+    $PythonScriptPath = "path_to_your_python_script";
     $PythonScript = ".\youtube-downloader.py";
     $Arguments = @($YoutubeLink);
 
