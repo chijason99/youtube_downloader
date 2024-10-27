@@ -15,7 +15,7 @@ function Invoke-YouTubeDownloader{
 
     Set-Location -Path $PythonScriptPath;
 
-    & .\.venv\Scripts\activate
+    & .\venv\Scripts\activate
 
     & python $PythonScript @Arguments
 
